@@ -1,0 +1,11 @@
+Comandos utilizados
+
+git init
+git remote add origin https://github.com/ericksonfrancisco/atividadegit.git
+git branch -M main
+git push -u origin main
+git status
+git add .
+git commit -a -m "Adicionando os arquivos"
+git push
+git status
