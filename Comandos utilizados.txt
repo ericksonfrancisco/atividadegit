@@ -8,4 +8,5 @@ git status
 git add .
 git commit -a -m "Adicionando os arquivos"
 git push
+git add .
 git status
