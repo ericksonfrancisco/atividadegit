@@ -11,3 +11,8 @@ git push
 git add .
 git status
 git status
+git add .
+git commit -a -m  "Alterações iniciais no HTML"
+git push
+git add .
+git commit -a -m  "Alterações nos arquivos"

@@ -1,0 +1,107 @@
+/* Configurações gerais */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    background: #f4f7fb;
+    color: #222;
+    line-height: 1.6;
+}
+
+/* Cabeçalho */
+header {
+    background: #111827;
+    color: white;
+    padding: 20px;
+    text-align: center;
+}
+
+header h1 {
+    font-size: 32px;
+}
+
+/* Conteúdo principal */
+main {
+    max-width: 900px;
+    margin: 40px auto;
+    padding: 30px;
+    background: white;
+    border-radius: 12px;
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.1);
+}
+
+h1 {
+    color: #2563eb;
+    margin-bottom: 20px;
+}
+
+h2 {
+    color: #1e40af;
+    margin-bottom: 15px;
+}
+
+p {
+    font-size: 18px;
+    margin-bottom: 20px;
+}
+
+/* Lista */
+ul {
+    padding-left: 25px;
+}
+
+li {
+    margin-bottom: 10px;
+}
+
+/* Formulário */
+form {
+    display: flex;
+    flex-direction: column;
+}
+
+label {
+    font-weight: bold;
+    margin-bottom: 5px;
+}
+
+input {
+    padding: 12px;
+    margin-bottom: 15px;
+    border: 1px solid #ccc;
+    border-radius: 6px;
+    font-size: 16px;
+}
+
+input:focus {
+    outline: none;
+    border-color: #2563eb;
+}
+
+/* Botão */
+button {
+    padding: 12px;
+    background: #2563eb;
+    color: white;
+    border: none;
+    border-radius: 6px;
+    font-size: 16px;
+    cursor: pointer;
+}
+
+button:hover {
+    background: #1d4ed8;
+}
+
+/* Rodapé */
+footer {
+    text-align: center;
+    background: #111827;
+    color: white;
+    padding: 20px;
+    margin-top: 40px;
+}
